@@ -38,7 +38,7 @@ class ApiService {
       } else {
         return ApiResponse(
           success: false,
-          message: 'Erreur serveur (${response.statusCode})',
+          message: 'Erreur serveur essayez plus tard ❌',
         );
       }
     } catch (e) {
